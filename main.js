@@ -1,0 +1,1 @@
+console.log("prečo je pes pes ")

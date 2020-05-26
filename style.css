@@ -1,15 +1,28 @@
 body {
     font-family: Consolas, sans-serif;
-    background: #111;
+    background: url(ban.jpg) no-repeat;
+    background-size: cover;
     margin: 0;
-    color: white;
+    padding: 0;
+    display:flex;
+    color: grey;
     overflow: hide;
 }
 
 a {
-    color: greenyellow;
+    color: red;
+    position: center;
+    
 }
 
 canvas {
     background: #0f0f0f;
+}
+.nadpis2 {
+    position: absolute;
+    margin: 3px;
+    padding: 4px;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
 }

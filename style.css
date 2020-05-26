@@ -1,28 +1,78 @@
-body {
-    font-family: Consolas, sans-serif;
-    background: url(ban.jpg) no-repeat;
-    background-size: cover;
+html,body{
     margin: 0;
     padding: 0;
-    display:flex;
-    color: grey;
-    overflow: hide;
+    width: 100%;
+    height: 100%;
 }
+.b1{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background: url(ban.jpg) no-repeat 50% 50%;
+    top: 0;
+    display: table;
+    background-size:cover ;
+}
+.b1 .in1{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+.content{
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: firebrick;
+    font-size: 500%;
+    text-shadow: 0 0 200px #000;
+}
+.content .btn{
+    border-radius: 9px;
+    color: firebrick;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid;
+    padding: 7px 13px;
+    font-weight: bold;
+}
+.content .btn:hover{
+    color: rgb(105, 10, 26);
+}
+p{
+    font-size: 160%;
+    line-height: 200%;
+    text-align: justify;
+    margin: 3%;
+    font-family: sans-serif;
 
-a {
-    color: red;
-    position: center;
+
+}
+h2{
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    border: 2px solid;
     
+    padding: 5px 9px;
+    text-align: center;
+
+}
+h2:hover{
+    
+    color: goldenrod;
+}
+p{
+    border-radius: 7px;
+    box-shadow: 4px , 3px;
+   
+    color: rgba(87, 14, 14, 0.973);
+    
+
 }
 
-canvas {
-    background: #0f0f0f;
-}
-.nadpis2 {
-    position: absolute;
-    margin: 3px;
-    padding: 4px;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-}
+
+

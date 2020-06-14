@@ -4,11 +4,12 @@ html,body{
     width: 100%;
     height: 100%;
 }
+/* first photo*/
 .b1{
     width: 100%;
     height: 100%;
     margin: auto;
-    background: url(ban.jpg) no-repeat 50% 50%;
+    background: url(andromeda.jpg) no-repeat 50% 50%;
     top: 0;
     display: table;
     background-size:cover ;
@@ -26,13 +27,15 @@ html,body{
 }
 .content h1{
     font-family: Arial, Helvetica, sans-serif;
-    color: firebrick;
-    font-size: 500%;
+    color: white;
+    font-size: 400%;
     text-shadow: 0 0 200px #000;
 }
+
+
 .content .btn{
     border-radius: 9px;
-    color: firebrick;
+    color: white;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     border: 2px solid;
@@ -40,69 +43,153 @@ html,body{
     font-weight: bold;
 }
 .content .btn:hover{
-    color: rgb(105, 10, 26);
+    color: rgb(0, 4, 247);
 }
-
-
-h2{
-    padding: 14px 23px;
-    font-family: 'Times New Roman', Times, serif;
-    
-    text-align: center;
-
-}
-p{
-    font-size: 160%;
-    line-height: 200%;
-    text-align: justify;
-    margin: 3%;
-    font-family: sans-serif;
-
-
-}
-
-p{
-    border-radius: 7px;
-    box-shadow: 4px , 3px;
-   
-    color: rgba(153, 14, 14, 0.973);
-    
-
-}
-.container{
-    text-align: center;
-}
-.bt{
-    
-    background: none;
-    border-radius: 1px;
-    border: 2px solid #000;
-    padding: 14px 23px;
-    font-size: 20px;
-    cursor: pointer;
-    margin: 10px;
-    transition: 0.30s;   
-    position: relative;
-    overflow: hidden; 
-}
- .bt:hover{
-    color: #fff;
-}
-.bt::before{
-    content: "";
-    position: absolute;
-    left: 0;
+/* second photo*/
+.b2{
     width: 100%;
-    height: 0;
-    background: #000; 
-    z-index: -1;
-    transition: 0.30;
-    bottom: 0;
-    border-radius: 50% 50% 0 0;  
+    height: 100%;
+    margin: auto;
+    background: url(pillar.jpg) no-repeat 50% 50%;
+    top: 0;
+    display: table;
+    background-size:cover ;
+}
+.b2 .in2{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+.obsah{
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.obsah h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(179, 173, 173);
+    font-size: 400%;
+    text-shadow: 0 0 200px #000;
+}
+.obsah .btn2{
+    border-radius: 9px;
+    color: rgb(179, 173, 173);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid;
+    padding: 7px 13px;
+    font-weight: bold;
+}
+.obsah .btn2:hover{
+    color: rgb(0, 4, 247);
 }
 
-.bt:hover::before{
-    height: 180%;
+/* third photo*/
+.b3{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background: url(Messier.jpg) no-repeat 50% 50%;
+    top: 0;
+    display: table;
+    background-size:cover ;
 }
+.b3 .in3{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+.obsah2{
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.obsah2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(155, 155, 155);
+    font-size: 400%;
+    text-shadow: 0 0 200px #000;
+}
+.obsah2 .btn3{
+    border-radius: 9px;
+    color: rgb(155, 155, 155);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid;
+    padding: 7px 13px;
+    font-weight: bold;
+}
+.obsah2 .btn31{
+    border-radius: 9px;
+    color: rgb(155, 155, 155);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid;
+    padding: 7px 13px;
+    font-weight: bold;
+}
+.obsah2 .btn32{
+    border-radius: 9px;
+    color: rgb(155, 155, 155);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid;
+    padding: 7px 13px;
+    font-weight: bold;
+}
+.obsah2 .btn3:hover {
+    color: rgb(0, 4, 247);
+}
+.obsah2 .btn31:hover {
+    color: rgb(0, 4, 247);
+}
+.obsah2 .btn32:hover {
+    color: rgb(0, 4, 247);
+}
+/* fourth photo */
+.b4{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background: url(saturn.jpg) no-repeat 50% 50%;
+    top: 0;
+    display: table;
+    background-size:cover ;
+}
+.b4 .in4{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+.content2{
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.content2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 400%;
+    text-shadow: 0 0 200px #000;
+}
+
+
+.content2 .btn4{
+    border-radius: 9px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid;
+    padding: 7px 13px;
+    font-weight: bold;
+}
+.content2 .btn4:hover{
+    color: rgb(0, 4, 247);
+}
+
+
 
 

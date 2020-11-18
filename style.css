@@ -152,22 +152,7 @@ html,body{
     right:  10%;
 }
 
-.content .SchoolButton{
-    border: 1px solid #000;
-    background: none;
-    padding: 20px 30px;
-    position: absolute;
-    top: 5%;
-    left: 3%;
-    font-size: 18px;
-    font-family:Arial, Helvetica, sans-serif;
-    cursor: pointer;
-    transition: 0.8s;
-    overflow: hidden;
-}
-.SchoolButton:hover{
-    color: #2109f7;
-}
+
 
 
 

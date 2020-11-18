@@ -13,7 +13,8 @@ html,body{
     background: url(stiahnuť.jpg) no-repeat 50% 50%;
     top: 0;
     display: table;
-    background-size:cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .b1 .in1{
     display: table-cell;
@@ -96,9 +97,8 @@ html,body{
 }
 .obsah{
     max-width: 100%;
-    position: relative;
-    bottom: 0px;
-    left: 5%;
+    
+    
 }
 .obsah h1{
     font-family: Arial, Helvetica, sans-serif;
@@ -106,13 +106,17 @@ html,body{
     font-size: 150%;
     -webkit-text-fill-color: rgb(0, 0, 0);
     -webkit-text-stroke-width: 0.5px;
-
+    position: absolute;
+    bottom: -15%;
+    
 }
 
 .obsah p{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
     font-size: 90%;
+    position: absolute;
+    top: 113%;
     
 }
 .obsah .h12{
@@ -120,7 +124,7 @@ html,body{
     color: rgb(255, 255, 255);
     font-size: 150%;
     position: absolute;
-    bottom: 30%;
+    bottom: -15%;
     left: 40%;
 }
 .obsah .p1{
@@ -128,7 +132,7 @@ html,body{
     color: rgb(255, 255, 255);
     font-size: 90%;
     position: absolute;
-    top: 50%;
+    top: 113%;
     left: 40%;
 }
 .obsah .h123{
@@ -136,16 +140,33 @@ html,body{
     color: rgb(255, 255, 255);
     font-size: 150%;
     position: absolute;
-    bottom: 30%;
-    right: 15%;
+    bottom: -15%;
+    right: 10%;
 }
 .obsah .p2{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
     font-size: 90%;
     position: absolute;
-    top: 50%;
-    right:  15%;
+    top: 113%;
+    right:  10%;
+}
+
+.content .SchoolButton{
+    border: 1px solid #000;
+    background: none;
+    padding: 20px 30px;
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: 0.8s;
+    overflow: hidden;
+}
+.SchoolButton:hover{
+    color: #2109f7;
 }
 
 

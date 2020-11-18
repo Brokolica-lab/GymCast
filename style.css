@@ -10,50 +10,39 @@ html,body{
     width: 100%;
     height: 100%;
     margin: auto;
-    background: url(návrh1.png) no-repeat 50% 50%;
+    background: url(stiahnuť.jpg) no-repeat 50% 50%;
     top: 0;
     display: table;
     background-size:cover;
 }
 .b1 .in1{
     display: table-cell;
-    
+    vertical-align: middle;
     width: 100%;
     max-width: none;
 }
 .content{
-    max-width: 50%;
-    margin-bottom:10%;
-    margin-left: 10%;
-    text-align: left;
+    max-width: 100%;
+    margin: 2px auto;
+    
+    text-align: center;
 }
 .content h1{
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 100%;
-    margin-bottom:20px;
-    margin-top: 10%;
-    margin-left: 10%;
-    text-align: left;
-    color: white;
-    font-size: 350%;
-    -webkit-text-fill-color: rgb(44, 43, 43);
-    -webkit-text-stroke-width: 2px;
-    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 320%;
+    
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 3px;
 }
-.content2 p{
-    font-family: Arial, monospace, sans-serif;
-    max-width: 100%;
-    margin-top: 10% ;
-    margin-bottom: 30%;
-    margin-left: 10%;
-    font-size: 50px;
-    position: relative;
-    color: white;
+.content h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 150%;
     -webkit-text-fill-color: rgb(0, 0, 0);
-    -webkit-text-stroke-width: 0.2px;
-    
-    
+    -webkit-text-stroke-width: 0px;
 }
+
 
 
 .content .btn{
@@ -66,51 +55,6 @@ html,body{
     font-weight: bold;
 }
 .content .btn:hover{
-    color: rgb(0, 4, 247);
-}
-/* second photo*/
-.b2{
-    width: 100%;
-    height: 30%;
-    margin: auto;
-    background: rgb(55, 76, 114);
-    top: 0;
-    display: table;
-    background-size:cover ;
-}
-.b2 .in2{
-    display: table-cell;
-    vertical-align: middle;
-    width: 100%;
-    max-width: none;
-}
-.obsah{
-    max-width: 100%;
-    margin: 2px auto;
-    text-align: left;
-}
-.obsah h1{
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    font-size: 200%;
-
-}
-.obsah p{
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    font-size: 150%;
-    
-}
-.obsah .btn2{
-    border-radius: 9px;
-    color: rgb(70, 69, 69);
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 2px solid;
-    padding: 7px 13px;
-    font-weight: bold;
-}
-.obsah .btn2:hover{
     color: rgb(0, 4, 247);
 }
 
@@ -130,10 +74,82 @@ html,body{
     cursor: pointer;
 }
 .links ul li .fa {
-    font-size: 50px;
-    color: rgb(5, 5, 5);
+    font-size: 45px;
+    color: rgb(133, 0, 0);
     
 }
+/* second photo*/
+.b2{
+    width: 100%;
+    height: 25%;
+    margin: auto;
+    background: rgb(55, 76, 114);
+    top: 0;
+    display: table;
+    background-size:cover ;
+}
+.b2 .in2{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+.obsah{
+    max-width: 100%;
+    position: relative;
+    bottom: 0px;
+    left: 5%;
+}
+.obsah h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.918);
+    font-size: 150%;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 0.5px;
+
+}
+
+.obsah p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 90%;
+    
+}
+.obsah .h12{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+    position: absolute;
+    bottom: 30%;
+    left: 40%;
+}
+.obsah .p1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 90%;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+.obsah .h123{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+    position: absolute;
+    bottom: 30%;
+    right: 15%;
+}
+.obsah .p2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 90%;
+    position: absolute;
+    top: 50%;
+    right:  15%;
+}
+
+
+
 
 
 

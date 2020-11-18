@@ -97,6 +97,7 @@ html,body{
 }
 .obsah{
     max-width: 100%;
+    position: relative;
     
     
 }

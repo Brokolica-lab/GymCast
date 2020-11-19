@@ -32,18 +32,38 @@ html,body{
 .content h1{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(0, 0, 0);
-    font-size: 340%;
-   
+    font-size: 400%;
+   font-weight: 900;
     
-    -webkit-text-fill-color: rgb(255, 255, 255);
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-fill-color: rgb(255, 250, 254);
+    -webkit-text-stroke-width: 2px;
+    text-shadow: 1px 2px 1px rgb(3, 223, 252),
+    1px 3px 1px rgb(3, 223, 252),
+    1px 4px 1px rgb(3, 223, 252),
+    1px 5px 1px rgb(3, 223, 252),
+    1px 6px 1px rgb(3, 223, 252),
+    1px 7px 1px rgb(3, 223, 252),
+    1px 8px 1px rgb(3, 223, 252),
+    1px 9px 1px rgb(3, 223, 252),
+    1px 10px 1px rgb(3, 223, 252),
+    1px 11px 1px rgb(3, 223, 252),
+    1px 12px 1px rgb(3, 223, 252);
+
+    
+
+
+    
 }
 .content h2{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(0, 0, 0);
-    font-size: 150%;
-    -webkit-text-fill-color: rgb(0, 0, 0);
+    font-size: 190%;
+    -webkit-text-fill-color: #000000;
     -webkit-text-stroke-width: 0px;
+    text-shadow: 2px 2px 2px rgb(253, 253, 253);
+   
+    letter-spacing: 3.5px;
+
   
     
 }
@@ -119,11 +139,12 @@ html,body{
 .obsah h1{
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffffea;
-    font-size: 150%;
+    font-size: 160%;
     -webkit-text-fill-color: rgba(255, 255, 255, 0.993);
     -webkit-text-stroke-width: 0.5px;
     position: absolute;
     bottom: -15%;
+    
     
     
     
@@ -133,7 +154,7 @@ html,body{
 .obsah p{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
-    font-size: 90%;
+    font-size: 110%;
     position: absolute;
     top: 113%;
     
@@ -141,7 +162,7 @@ html,body{
 .obsah .h12{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
-    font-size: 150%;
+    font-size: 160%;
     position: absolute;
     bottom: -15%;
     left: 45%;
@@ -149,7 +170,7 @@ html,body{
 .obsah .p1{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
-    font-size: 90%;
+    font-size: 110%;
     position: absolute;
     top: 113%;
     left: 45%;
@@ -157,7 +178,7 @@ html,body{
 .obsah .h123{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
-    font-size: 150%;
+    font-size: 160%;
     position: absolute;
     bottom: -15%;
     right: 2%;
@@ -165,7 +186,7 @@ html,body{
 .obsah .p2{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
-    font-size: 90%;
+    font-size: 110%;
     position: absolute;
     top: 113%;
     right:  3%;

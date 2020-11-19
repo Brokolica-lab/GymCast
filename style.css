@@ -33,9 +33,7 @@ html,body{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(0, 0, 0);
     font-size: 340%;
-    position: absolute;
-    left: 20%;
-    top: 20%;
+   
     
     -webkit-text-fill-color: rgb(255, 255, 255);
     -webkit-text-stroke-width: 3px;
@@ -46,9 +44,8 @@ html,body{
     font-size: 150%;
     -webkit-text-fill-color: rgb(0, 0, 0);
     -webkit-text-stroke-width: 0px;
-    position: absolute;
-    left: 4%;
-    top: 50%;
+  
+    
 }
 
 
@@ -129,6 +126,8 @@ html,body{
     bottom: -15%;
     
     
+    
+    
 }
 
 .obsah p{
@@ -145,7 +144,7 @@ html,body{
     font-size: 150%;
     position: absolute;
     bottom: -15%;
-    left: 40%;
+    left: 45%;
 }
 .obsah .p1{
     font-family: Arial, Helvetica, sans-serif;
@@ -153,7 +152,7 @@ html,body{
     font-size: 90%;
     position: absolute;
     top: 113%;
-    left: 40%;
+    left: 45%;
 }
 .obsah .h123{
     font-family: Arial, Helvetica, sans-serif;
@@ -161,7 +160,7 @@ html,body{
     font-size: 150%;
     position: absolute;
     bottom: -15%;
-    right: 10%;
+    right: 2%;
 }
 .obsah .p2{
     font-family: Arial, Helvetica, sans-serif;
@@ -169,7 +168,7 @@ html,body{
     font-size: 90%;
     position: absolute;
     top: 113%;
-    right:  11%;
+    right:  3%;
 }
 
 

@@ -79,7 +79,7 @@ html,body{
 }
 .links ul li .fa {
     font-size: 50px;
-    color: rgb(0, 0, 0);
+    color: #000000;
   
     
 }
@@ -116,7 +116,7 @@ html,body{
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffffea;
     font-size: 150%;
-    -webkit-text-fill-color: rgba(0, 0, 0, 0.993);
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.993);
     -webkit-text-stroke-width: 0.5px;
     position: absolute;
     bottom: -15%;

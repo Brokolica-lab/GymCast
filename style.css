@@ -32,7 +32,7 @@ html,body{
 .content h1{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(0, 0, 0);
-    font-size: 400%;
+    font-size: 500%;
    font-weight: 900;
     
     -webkit-text-fill-color: rgb(255, 250, 254);
@@ -79,7 +79,7 @@ html,body{
     padding: 10px 15px;
     font-weight: bold;
     position: absolute;
-    top: 5%;
+    top: 3%;
     left: 3%;
 }
 .content .btn:hover{

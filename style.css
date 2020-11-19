@@ -71,7 +71,7 @@ html,body{
    
     right: 30px;
     top: 40px;
-    position: relative;
+    position: absolute;
     
     
 }
@@ -92,7 +92,7 @@ html,body{
     position: absolute;
     font-size: 20px;
     right: 0%;
-    bottom: 95%;
+    bottom: 90%;
 }
 /* second photo*/
 .b2{

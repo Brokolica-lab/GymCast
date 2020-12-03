@@ -136,13 +136,14 @@ html,body{
     
     
 }
-.obsah h1{
+.obsah .h1{
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffffea;
     font-size: 160%;
     -webkit-text-fill-color: rgba(255, 255, 255, 0.993);
     -webkit-text-stroke-width: 0.5px;
     position: absolute;
+    left: 20px;
     bottom: -15%;
     
     
@@ -151,12 +152,13 @@ html,body{
     
 }
 
-.obsah p{
+.obsah .p0{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
     font-size: 110%;
     position: absolute;
     top: 113%;
+    left: 20px;
     
 }
 .obsah .h12{
@@ -190,6 +192,15 @@ html,body{
     position: absolute;
     top: 113%;
     right:  3%;
+}
+.obsah .p3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(253, 253, 253);
+    font-size: 110%;
+    position: absolute;
+    bottom: -25px;
+    left: 45%;
+
 }
 
 

@@ -1,0 +1,212 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+}
+/* first photo*/
+.b1{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background: url(GymCastPozadie.png) no-repeat 50% 50%;
+    top: 0;
+    display: table;
+   
+    background-size: cover;
+}
+.b1 .in1{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+.content{
+    max-width: 100%;
+    margin: 2px auto;
+    
+    text-align: center;
+    
+}
+.content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 500%;
+   font-weight: 900;
+    
+    -webkit-text-fill-color: rgb(255, 250, 254);
+    -webkit-text-stroke-width: 2px;
+    text-shadow: 1px 2px 1px rgb(3, 223, 252),
+    1px 3px 1px rgb(3, 223, 252),
+    1px 4px 1px rgb(3, 223, 252),
+    1px 5px 1px rgb(3, 223, 252),
+    1px 6px 1px rgb(3, 223, 252),
+    1px 7px 1px rgb(3, 223, 252),
+    1px 8px 1px rgb(3, 223, 252),
+    1px 9px 1px rgb(3, 223, 252),
+    1px 10px 1px rgb(3, 223, 252),
+    1px 11px 1px rgb(3, 223, 252),
+    1px 12px 1px rgb(3, 223, 252);
+
+    
+
+
+    
+}
+.content h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 190%;
+    -webkit-text-fill-color: #000000;
+    -webkit-text-stroke-width: 0px;
+    text-shadow: 2px 2px 2px rgb(253, 253, 253);
+   
+    letter-spacing: 3.5px;
+
+  
+    
+}
+
+
+
+.content .btn{
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid;
+    padding: 10px 15px;
+    font-weight: bold;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+}
+.content .btn:hover{
+    color: rgb(0, 0, 0);
+}
+
+.links{
+  
+   
+    right: 30px;
+    top: 40px;
+    position: absolute;
+    
+    
+}
+ 
+.links ul li{
+    list-style: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.links ul li .fa {
+    font-size: 50px;
+    color: #000000;
+  
+    
+}
+.links .linkWord{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: 20px;
+    right: 0%;
+    bottom: 90%;
+}
+/* second photo*/
+.b2{
+    width: 100%;
+    height: 25%;
+    margin: auto;
+    background: rgb(47, 66, 97);
+    top: 0;
+    display: table;
+    background-size:cover ;
+}
+.b2 .in2{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+.obsah{
+    max-width: 100%;
+    position: relative;
+    
+    
+}
+.obsah .h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffffea;
+    font-size: 160%;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.993);
+    -webkit-text-stroke-width: 0.5px;
+    position: absolute;
+    left: 20px;
+    bottom: -15%;
+    
+    
+    
+    
+    
+}
+
+.obsah .p0{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 110%;
+    position: absolute;
+    top: 113%;
+    left: 20px;
+    
+}
+.obsah .h12{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 160%;
+    position: absolute;
+    bottom: -15%;
+    left: 45%;
+}
+.obsah .p1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 110%;
+    position: absolute;
+    top: 113%;
+    left: 45%;
+}
+.obsah .h123{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 160%;
+    position: absolute;
+    bottom: -15%;
+    right: 2%;
+}
+.obsah .p2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 110%;
+    position: absolute;
+    top: 113%;
+    right:  3%;
+}
+.obsah .p3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(253, 253, 253);
+    font-size: 110%;
+    position: absolute;
+    bottom: -25px;
+    left: 45%;
+
+}
+
+
+
+
+
+
+
+
